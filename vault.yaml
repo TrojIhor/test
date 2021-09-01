@@ -1,10 +1,11 @@
-credentials:
-   system:
-     domainCredentials:
-       - credentials:
-           - usernamePassword:
-               scope: "GLOBAL"
-               id: "admin2"
-               username: "admin2"
-               password: "${SECRET_PASS}"
-               description: "User admin2's credentials"
+jenkins:
+   credentials:
+      system:
+         domainCredentials:
+            - credentials:
+               - usernamePassword:
+                   scope: "GLOBAL"
+                   id: "admin2"
+                   username: "admin2"
+                   password: "${SECRET_PASS}"
+                   description: "User admin2's credentials"
