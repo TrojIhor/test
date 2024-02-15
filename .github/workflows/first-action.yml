@@ -2,7 +2,7 @@
 name: First WF
 on: workflow_dispatch
 jobs:
-  first-job:
+  first-job: ubuntu-latest
     runs-on:
     steps:
       - name: Print greeting
